@@ -1,0 +1,21 @@
+
+<div class="hero-unit" >
+  <!-- <h1>{{Data.newLeap}}</h1> -->
+  <!-- <div drink flavor="apple">
+  	<h1>{{flavor}}</h1>
+  </div> -->
+  <section class="leaps">
+  	<div class="leap" ng-repeat="leap in allLeaps">
+  		<h4 style="padding-left: 15px;">{{leap.person}}</h4>
+  		<div leapimage class="leapBy" imgDir="{{leap.person}}"></div>
+  		<div class="leapText tooltip fade right in">
+  			<div class="tooltip-arrow"></div>
+  			<div class="tooltip-inner">
+	  			<i class="fa fa-quote-left fa-2x"></i>
+	  			{{leap.text}}
+	  			<i class="fa fa-quote-right fa-2x"></i>
+  			</div>
+  		</div>
+  	</div>
+  </section>
+</div>
